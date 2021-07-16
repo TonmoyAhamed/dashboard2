@@ -1,0 +1,120 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    table{
+        display:block;
+        width:100%;
+        overflow-x:auto;
+        -webkit-overflow-scrolling:touch;
+    }
+    #tab1 li a.active {
+        font-size: 16px;
+    }
+    #tab1 li a {
+        font-size: 15px;
+    }
+    .receive {
+        padding: 30px 5px;
+    }
+    .receive form button {
+        margin-top: 40px;
+    }
+    ul#tab2 li {
+        display: block;
+        width: 100%;
+    }
+    ul#tab2 li a {
+        font-size: 16px;
+        padding: 12px 0;
+    }
+    table tr td {
+        padding: 17px 17px;
+        font-size: 13px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    table{
+        display:block;
+        width:100%;
+        overflow-x:auto;
+        -webkit-overflow-scrolling:touch;
+    }
+    #tab1 li a.active {
+        font-size: 16px;
+    }
+    #tab1 li a {
+        font-size: 15px;
+    }
+    .receive {
+        padding: 30px 5px;
+    }
+    .receive form button {
+        margin-top: 40px;
+    }
+    ul#tab2 li {
+        display: block;
+        width: 100%;
+    }
+    ul#tab2 li a {
+        font-size: 16px;
+        padding: 12px 0;
+    }
+    table tr td {
+        padding: 17px 17px;
+        font-size: 13px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #tab1 li a {
+        font-size: 13px;
+        margin-right: 20px;
+    }
+    #tab1 li a.active {
+        font-size: 15px;
+    }
+    div#tab1-market h2 {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    div#tab1-market h2 a span {
+        margin-left: 10px;
+    }
+    .receive form input {
+        width: 100%;
+        margin-left: 0;
+    }
+    .receive form button {
+        padding: 5px 0px;
+        min-width: 100%;
+        font-size: 12px;
+    }
+    .btns-top h2 {
+        font-size: 14px;
+    }
+    .btns-top span {
+        font-size: 14px;
+        margin-left: 9%;
+    }
+    .btns-btm ul li p {
+        font-size: 13px;
+    }
+    ul#tab2 li a {
+        font-size: 17px;
+    }
+    table tr td {
+        font-size: 15px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    
+}

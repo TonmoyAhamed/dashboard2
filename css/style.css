@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+body{
+    background-color: #0B0D22;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,p,a{
+    color: #fff;
+}
+h2{
+    font-weight: 300;
+    font-size: 17px;
+}
+.chart-part {
+    padding: 30px 0 0 0;
+}
+.chart-form {
+    background: #151839;
+    padding: 20px 20px;
+    position: relative;
+    overflow: hidden;
+}
+#tab1 {
+    border-bottom: 1px solid #bdb7b752;
+}
+#tab1 li a {
+    color: #D3D3D3;
+    font-weight: 300;
+    font-size: 17px;
+    padding: 5px 0px;
+    margin-right: 25px;
+}
+#tab1 li a.active {
+    color: #fff;
+    background: none;
+    font-weight: 400;
+    font-size: 18px;
+}
+#tab1-content{
+
+}
+.receive {
+    background: #101334;
+    padding: 38px 10px;
+    margin-top: -16px;
+}
+div#tab1-market h2 a {
+    text-decoration: none;
+    color: #fff;
+}
+div#tab1-market h2 a span {
+    margin-left: 25px;
+}
+div#tab1-market h2 {
+    margin-bottom: 20px;
+}
+.receive form h2 {
+    display: inline-block;
+}
+.receive form input {
+    display: inline-block;
+    border: 1px solid #2630B2;
+    width: 80px;
+    outline: none;
+    border-radius: 30px;
+    padding: 0 12px;
+    background: #101334;
+    color: #D3D3D3;
+    margin-left: 55px;
+}
+.receive form button {
+    background: #B409D4;
+    color: #fff;
+    border: none;
+    padding: 5px 15px;
+    display: block;
+    border-radius: 30px;
+    outline: none;
+    min-width: 120px;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+table tr td {
+    padding: 13px 8px;
+    font-size: 17px;
+    font-weight: 300;
+    text-align: center;
+}
+ul#tab2 li {
+    margin: 0 20px;
+}
+ul#tab2 li a {
+    color: #707070;
+    font-size: 20px;
+}
+ul#tab2 li a.active {
+    background: none;
+    border-bottom: 4px solid #4055D4;
+    border-radius: 0;
+    color: #fff;
+}
+.btns-top h2 {
+    display: inline-block;
+    font-weight: 400;
+}
+.btns-top span {
+    font-size: 20px;
+    display: inline-block;
+    color: #fff;
+    margin-left: 15%;
+    cursor: pointer;
+}
+.btns-btm ul {
+    margin: 0;
+    padding: 0;
+}
+.btns-btm ul li {
+    border-bottom: 1px solid #ffffff57;
+}
+.btns-btm ul li p {
+    margin-top: 35px;
+}
+.btn-inner-div {
+    position: absolute;
+    visibility: hidden;
+    left: 0;
+    top: 0;
+    background: #000;
+    width: 100%;
+    transition: all .4s linear;
+    height: 100%;
+    padding: 30px 5px;
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+div#tab1-limit a {
+    color: #fff;
+    text-decoration: none;
+}
